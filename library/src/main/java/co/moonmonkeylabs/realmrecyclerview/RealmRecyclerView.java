@@ -328,7 +328,7 @@ public class RealmRecyclerView extends FrameLayout {
         recyclerView.smoothScrollToPosition(position);
     }
     
-    public LayoutManager getLayoutManager() {
+    public RecyclerView.LayoutManager getLayoutManager() {
         return recyclerView.getLayoutManager();
     }
 
