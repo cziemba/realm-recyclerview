@@ -331,6 +331,18 @@ public class RealmRecyclerView extends FrameLayout {
     public RecyclerView.LayoutManager getLayoutManager() {
         return recyclerView.getLayoutManager();
     }
+    
+    public void addItemDecoration(RecyclerView.ItemDecoration decor) {
+        recyclerView.addItemDecoration(decor);
+    }
+ 
+    public void addItemDecoration(RecyclerView.ItemDecoration decor, int index) {
+        recyclerView.addItemDecoration(decor, index);
+    }
+ 
+    public void removeItemDecoration(RecyclerView.ItemDecoration decor) {
+        recyclerView.removeItemDecoration(decor);
+    }
 
     //
     // Pull-to-refresh
